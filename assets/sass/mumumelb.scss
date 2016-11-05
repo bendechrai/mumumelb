@@ -1,0 +1,15 @@
+ul.usergroups {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+        width: 20%;
+        float: left;
+        a {
+            border: none;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
