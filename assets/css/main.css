@@ -11,6 +11,18 @@ ul.usergroups {
       ul.usergroups li a img {
         width: 100%; }
 
+ul.logos {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  ul.logos li {
+    width: 11%;
+    float: left; }
+    ul.logos li a {
+      border: none; }
+      ul.logos li a img {
+        width: 100%; }
+
 /*
 	Photon by HTML5 UP
 	html5up.net | @ajlkn
