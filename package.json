@@ -1,0 +1,28 @@
+{
+  "name": "mumumelb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "watches": {
+    "sass": "assets/sass/**"
+  },
+  "scripts": {
+    "sass": "node-sass assets/sass/ -o assets/css/",
+    "dev": "rerun-script"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bendechrai/mumumelb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bendechrai/mumumelb/issues"
+  },
+  "homepage": "https://github.com/bendechrai/mumumelb#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "rerun-script": "^0.6.0"
+  }
+}

@@ -1,0 +1,32 @@
+ul.usergroups {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  ul.usergroups li {
+    width: 20%;
+    float: left; }
+    ul.usergroups li a {
+      border: none; }
+      ul.usergroups li a img {
+        width: 100%; }
+
+ul.logos {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  ul.logos li {
+    width: 10%;
+    float: left; }
+    ul.logos li a {
+      border: none; }
+      ul.logos li a img {
+        width: 100%; }
+    ul.logos li.trans img {
+      width: 79%;
+      margin-top: 13px; }
+
+.organisers .row h3, .sponsors .row h3 {
+  font-size: 1em; }
+
+.organisers .row p, .sponsors .row p {
+  font-size: 0.7em; }

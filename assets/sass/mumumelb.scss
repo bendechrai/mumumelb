@@ -27,5 +27,24 @@ ul.logos {
                 width: 100%;
             }
         }
+        &.trans {
+            img {
+                width: 79%;
+                margin-top: 13px;
+            }
+        }
     }
 }
+
+.organisers, .sponsors {
+    .row {
+        h3 {
+            font-size: 1em;
+        }
+        p {
+            font-size: 0.7em;
+        }
+    }
+}
+
+
