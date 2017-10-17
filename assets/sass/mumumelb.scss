@@ -53,4 +53,22 @@ ul.logos {
     }
 }
 
-
+.sponsors {
+    .sponsor-level {
+        font-size: 80%;
+        height: 20px;
+        line-height: 20px;
+        padding: 0 0.5em;
+        &.sponsor-level-gold {
+            background: gold radial-gradient(lightyellow, gold);
+        }
+        &.sponsor-level-silver {
+            background: #999 radial-gradient(#ddd, #999);
+            color: #fff;
+        }
+        &.sponsor-level-bronze {
+            background: #CD7F32 radial-gradient(#FFC48B, #CD7F32);
+            color: #fff;
+        }
+    }
+}

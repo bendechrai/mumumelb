@@ -34,3 +34,17 @@ ul.logos {
 
 .organisers .row p, .sponsors .row p {
   font-size: 0.7em; }
+
+.sponsors .sponsor-level {
+  font-size: 80%;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 0.5em; }
+  .sponsors .sponsor-level.sponsor-level-gold {
+    background: gold radial-gradient(lightyellow, gold); }
+  .sponsors .sponsor-level.sponsor-level-silver {
+    background: #999 radial-gradient(#ddd, #999);
+    color: #fff; }
+  .sponsors .sponsor-level.sponsor-level-bronze {
+    background: #CD7F32 radial-gradient(#FFC48B, #CD7F32);
+    color: #fff; }
