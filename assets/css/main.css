@@ -14,6 +14,8 @@ ul.usergroups {
       border: none; }
       ul.usergroups li a img {
         width: 100%; }
+    ul.usergroups li.rounded img {
+      border-radius: 100%; }
 
 ul.logos {
   margin: 0;

@@ -17,6 +17,9 @@ ul.usergroups {
                 width: 100%;
             }
         }
+        &.rounded img {
+            border-radius: 100%;
+        }
     }
 }
 
