@@ -54,21 +54,33 @@ ul.logos {
 }
 
 .sponsors {
-    .sponsor-level {
-        font-size: 80%;
-        height: 20px;
-        line-height: 20px;
-        padding: 0 0.5em;
-        &.sponsor-level-gold {
-            background: gold radial-gradient(lightyellow, gold);
+    .sponsor {
+        border: 1px solid #999;
+        padding: 0.2em;
+        border-radius: 5px;
+        margin-bottom: 1em;
+        .sponsor-level {
+            font-size: 80%;
+            height: 20px;
+            line-height: 20px;
+            padding: 0 0.5em;
+            &.sponsor-level-gold {
+                background: gold radial-gradient(lightyellow, gold);
+            }
+            &.sponsor-level-silver {
+                background: #999 radial-gradient(#ddd, #999);
+                color: #fff;
+            }
+            &.sponsor-level-bronze {
+                background: #CD7F32 radial-gradient(#FFC48B, #CD7F32);
+                color: #fff;
+            }
         }
-        &.sponsor-level-silver {
-            background: #999 radial-gradient(#ddd, #999);
-            color: #fff;
+        .image {
+            margin: 0;
         }
-        &.sponsor-level-bronze {
-            background: #CD7F32 radial-gradient(#FFC48B, #CD7F32);
-            color: #fff;
-        }
+    }
+    .cta {
+        padding: 2em;
     }
 }
